@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 600px;
+  border: 10px solid black;
+}
+
+.container {
+    flex-direction: column;
+    align-content: center;
+}
+
+.display-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    width: 400px;
+    height: 80px;
+}
+
+.display-row p {
+    padding-right: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.row button {
+    font-size: 40px;
+    align-items: center;
+    border: solid black 1px;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    padding-right: 10px;
+}
+
+/* ======================================== Button styling======================================== */
+
+#zero-btn {
+    background-color: #d8d9db;
+    width: 300px;
+    height: 100px;
+}
+
+#c-btn {
+    background-color: #d8d9db;
+    width: 200px;
+    height: 100px;
+}
+
+.operators {
+    color: white;
+    background-color: #df974c;
+}
+
+.numbers {
+    color: black;
+    background-color: #d8d9db;
+}
